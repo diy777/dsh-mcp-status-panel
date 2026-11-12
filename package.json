@@ -2,6 +2,7 @@
   "name": "@local/dsh-mcp-status-panel",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "MCP server status and controls for the DeepSeek Harness Web UI",
   "exports": {
@@ -15,8 +16,10 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
+    "assets/mcp-panel-preview.svg",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "node --test test/*.test.js",

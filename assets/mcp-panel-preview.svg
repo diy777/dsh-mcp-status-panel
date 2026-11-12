@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">MCP Status Panel preview</title>
+  <desc id="desc">Privacy-safe illustration using fictional MCP server names and endpoints.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15171c"/>
+      <stop offset="1" stop-color="#20242b"/>
+    </linearGradient>
+    <linearGradient id="active" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63a7ff"/>
+      <stop offset="1" stop-color="#7c8cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <rect x="22" y="22" width="1156" height="676" rx="20" fill="#1d2026" stroke="#353a44" filter="url(#shadow)"/>
+  <rect x="22" y="22" width="238" height="676" rx="20" fill="#17191e"/>
+  <path d="M260 22v676" stroke="#30343d"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="54" y="73" fill="#f5f7fb" font-size="22" font-weight="700">DeepSeek Harness</text>
+    <rect x="42" y="102" width="198" height="42" rx="9" fill="#292d35" stroke="#424854"/>
+    <text x="107" y="129" fill="#e9edf5" font-size="14">＋ New session</text>
+    <text x="51" y="186" fill="#8d96a7" font-size="12" font-weight="700" letter-spacing="1.3">TOOLS</text>
+    <g fill="#aab2c0" font-size="15">
+      <text x="55" y="228">Plugins</text>
+      <text x="55" y="274">Automation</text>
+    </g>
+    <rect x="38" y="294" width="206" height="44" rx="9" fill="#30343d"/>
+    <circle cx="58" cy="316" r="8" fill="none" stroke="#70aaff" stroke-width="2"/>
+    <circle cx="58" cy="316" r="2.5" fill="#70aaff"/>
+    <text x="78" y="322" fill="#fff" font-size="15" font-weight="600">MCP</text>
+    <text x="55" y="368" fill="#aab2c0" font-size="15">Settings</text>
+    <text x="304" y="83" fill="#fff" font-size="30" font-weight="720">MCP Servers</text>
+    <text x="304" y="112" fill="#929baa" font-size="15">Connection status and controls for configured MCP instances.</text>
+    <rect x="1045" y="61" width="94" height="40" rx="9" fill="#292d35" stroke="#424854"/>
+    <text x="1068" y="87" fill="#e9edf5" font-size="14">↻ Refresh</text>
+    <g transform="translate(304 152)">
+      <rect width="835" height="190" rx="15" fill="#252931" stroke="#3a404b"/>
+      <text x="24" y="40" fill="#fff" font-size="20" font-weight="650">local-tools</text>
+      <rect x="24" y="57" width="100" height="29" rx="14.5" fill="#183a2c" stroke="#47d18c"/>
+      <circle cx="42" cy="71.5" r="4" fill="#47d18c"/>
+      <text x="53" y="76" fill="#7de5aa" font-size="13">Connected</text>
+      <rect x="135" y="57" width="76" height="29" rx="14.5" fill="#30343c"/>
+      <text x="151" y="76" fill="#b7bfcc" font-size="13">18 tools</text>
+      <text x="24" y="118" fill="#8f98a8" font-size="13">TRANSPORT</text>
+      <text x="135" y="118" fill="#e7ebf2" font-size="14">stdio</text>
+      <text x="24" y="149" fill="#8f98a8" font-size="13">ENDPOINT</text>
+      <text x="135" y="149" fill="#e7ebf2" font-size="14">mcp-server (+2 args)</text>
+      <rect x="757" y="23" width="52" height="28" rx="14" fill="url(#active)"/>
+      <circle cx="795" cy="37" r="10" fill="#fff"/>
+    </g>
+    <g transform="translate(304 365)">
+      <rect width="835" height="190" rx="15" fill="#252931" stroke="#3a404b"/>
+      <text x="24" y="40" fill="#fff" font-size="20" font-weight="650">docs-api</text>
+      <rect x="24" y="57" width="100" height="29" rx="14.5" fill="#183a2c" stroke="#47d18c"/>
+      <circle cx="42" cy="71.5" r="4" fill="#47d18c"/>
+      <text x="53" y="76" fill="#7de5aa" font-size="13">Connected</text>
+      <rect x="135" y="57" width="70" height="29" rx="14.5" fill="#30343c"/>
+      <text x="151" y="76" fill="#b7bfcc" font-size="13">7 tools</text>
+      <text x="24" y="118" fill="#8f98a8" font-size="13">TRANSPORT</text>
+      <text x="135" y="118" fill="#e7ebf2" font-size="14">streamable-http</text>
+      <text x="24" y="149" fill="#8f98a8" font-size="13">ENDPOINT</text>
+      <text x="135" y="149" fill="#e7ebf2" font-size="14">https://mcp.example.com/api</text>
+      <rect x="757" y="23" width="52" height="28" rx="14" fill="url(#active)"/>
+      <circle cx="795" cy="37" r="10" fill="#fff"/>
+    </g>
+    <rect x="304" y="590" width="835" height="72" rx="12" fill="#20242b" stroke="#343a45"/>
+    <text x="328" y="620" fill="#8f98a8" font-size="12" font-weight="700" letter-spacing="1">PRIVACY-SAFE PREVIEW</text>
+    <text x="328" y="644" fill="#c4cad4" font-size="14">All server names, endpoints, counts, and paths shown here are fictional.</text>
+  </g>
+</svg>
