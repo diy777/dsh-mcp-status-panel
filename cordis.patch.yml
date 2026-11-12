@@ -1,0 +1,3 @@
+- insert:
+    - id: mcp-status-panel
+      name: '@local/dsh-mcp-status-panel'

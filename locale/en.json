@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MCP management panel",
+    "description": "Shows MCP server status, transport, tool counts, and errors in the sidebar, with enable and disable controls."
+  }
+}
